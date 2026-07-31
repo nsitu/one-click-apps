@@ -90,3 +90,4 @@ caproverOneClickApp:
           description: Set to 'HDD' if your database is stored on a hard drive (not SSD). Leave empty for SSD (default).
           defaultValue: ''
           validRegex: /^(HDD|)$/
+
