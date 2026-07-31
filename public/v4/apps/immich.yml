@@ -3,9 +3,8 @@ captainVersion: 4
 services:
     $$cap_appname:
         caproverExtra:
-            dockerfileLines:
-                - FROM ghcr.io/immich-app/immich-server:$$cap_version
             containerHttpPort: 2283
+        image: ghcr.io/immich-app/immich-server:$$cap_version
         environment:
             DB_PASSWORD: $$cap_app_db_pass
             DB_USERNAME: $$cap_app_db_user
